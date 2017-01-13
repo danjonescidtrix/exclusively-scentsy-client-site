@@ -1,0 +1,31 @@
+<nav style="letter-spacing: 1px;" class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a style="font-size: 14px;" class="navbar-brand hidden-sm hidden-xs" href="../build/home.html">exlusivelyscentsy.co.uk</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a <% if (pageId==='home' ) { %>class="active-page sliding-middle-out"<% } 
+                       else{ %>class="sliding-middle-out"<% } %>
+                       href="../build/home.html">HOME</a></li>
+                <li><a <% if (pageId==='scentsy' ) { %>class="active-page sliding-middle-out"<% } 
+                       else{ %>class="sliding-middle-out"<% } %>
+                       href="#">SCENTSY</a></li>
+                <li><a <% if (pageId==='products' ) { %>class="active-page sliding-middle-out"<% } 
+                       else{ %>class="sliding-middle-out"<% } %>
+                       href="../build/products.html">PRODUCTS</a></li>
+                <li><a <% if (pageId==='join' ) { %>class="active-page sliding-middle-out"<% } 
+                       else{ %>class="sliding-middle-out"<% } %>
+                       href="../build/join.html">JOIN</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="cover">
+    <div class="set"></div>
+</div>

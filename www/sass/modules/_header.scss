@@ -1,0 +1,71 @@
+.hr-header {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #d9d9d9;
+    /* old IE */
+    background-color: #d9d9d9;
+    /* Modern Browsers */
+}
+
+.hr-home:after {
+    //mix-blend-mode: multiply;
+    background-image: url(../img/home-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: auto;
+    margin: 0 auto;
+    content: "";
+    display: block;
+    height: 140px;
+    position: relative;
+    top: -70px;
+}
+
+.hr-products:after {
+    //mix-blend-mode: multiply;
+    background-image: url(../img/products-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: auto;
+    margin: 0 auto;
+    content: "";
+    display: block;
+    height: 140px;
+    position: relative;
+    top: -70px;
+}
+
+.hr-join:after {
+    //mix-blend-mode: multiply;
+    background-image: url(../img/join-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: auto;
+    margin: 0 auto;
+    content: "";
+    display: block;
+    height: 140px;
+    position: relative;
+    top: -70px;
+}
+
+.hr-warmers:after {
+    //mix-blend-mode: multiply;
+    background-image: url(../img/warmers-header.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    max-width: auto;
+    margin: 0 auto;
+    content: "";
+    display: block;
+    height: 140px;
+    position: relative;
+    top: -70px;
+}
