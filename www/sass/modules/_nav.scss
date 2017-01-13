@@ -6,6 +6,8 @@ nav {
     margin: 0px!important;
     font-size: 12px;
     letter-spacing: 5px;
+    position:relative;
+    z-index: 100;
     ul {
         list-style: none;
         li {
@@ -40,7 +42,7 @@ nav {
     background: #CD96CD;
 }
 
-.cover{ height:5px; width:100%; overflow:hidden;    z-index: 50; margin: 0 auto;}
+.cover{ height:5px; width:100%; overflow:hidden;    z-index: 50; margin: 0 auto;   z-index: 50;}
 .set {
     background-color: #e6e6e6;
     width: 100%;

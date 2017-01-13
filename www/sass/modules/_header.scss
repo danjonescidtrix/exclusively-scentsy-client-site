@@ -1,13 +1,52 @@
+.corner-left {
+    position: relative;
+}
+
+.corner-left img {
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: -40px;
+    left: -170px;
+    opacity: 0.4;
+}
+
+.corner-decal-left {
+    max-width: auto;
+    height: 220px;
+}
+
+.corner-right {
+    position: relative;
+}
+
+.corner-right img {
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: -40px;
+    right: -170px;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph;
+    /*IE*/
+    filter: fliph;
+    /*IE*/
+    opacity: 0.4;
+}
+
+.corner-decal-right {
+    max-width: auto;
+    height: 220px;
+}
+
 .hr-header {
     margin-top: 80px;
     margin-bottom: 90px;
     border: none;
     height: 1px;
-    /* Set the hr color */
     color: #d9d9d9;
-    /* old IE */
     background-color: #d9d9d9;
-    /* Modern Browsers */
 }
 
 .hr-home:after {
