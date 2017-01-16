@@ -23,7 +23,7 @@
     <script src="//localhost:35729/livereload.js"></script>
 </head>
 
-<body class="page-<%= pageId %>">
+<body class="page-<%= pageId %>" >
 
     <header class="text-center" role="banner">
         <% include ../modules/_nav %>
@@ -33,5 +33,5 @@
             <div class="corner-right">
                 <img src="img/corner-decal.jpeg" class="corner-decal-right" />
             </div>
-            <hr class="hr-<%= pageId %> hr-header">
+            <hr id="header-logo" class="hr-<%= pageId %> hr-header" style=" visibility: hidden;">
     </header>
