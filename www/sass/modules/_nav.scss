@@ -6,7 +6,7 @@ nav {
     margin: 0px!important;
     font-size: 12px;
     letter-spacing: 5px;
-    position:relative;
+    position: relative;
     z-index: 100;
     ul {
         list-style: none;
@@ -31,7 +31,7 @@ nav {
     content: '';
     display: block;
     margin: 0px;
-    height: 1px;
+    height: 2px;
     width: 0px;
     background: transparent;
     transition: width .3s ease, background-color .3s ease;
@@ -42,7 +42,15 @@ nav {
     background: #CD96CD;
 }
 
-.cover{ height:5px; width:100%; overflow:hidden;    z-index: 50; margin: 0 auto;   z-index: 50;}
+.cover {
+    height: 5px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 50;
+    margin: 0 auto;
+    z-index: 50;
+}
+
 .set {
     background-color: #e6e6e6;
     width: 100%;
@@ -51,8 +59,9 @@ nav {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     z-index: 50;
-     margin: 0 auto;
+    margin: 0 auto;
 }
-.set:after{
+
+.set:after {
     margin: 0 auto;
 }
