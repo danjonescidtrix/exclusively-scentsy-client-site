@@ -53,7 +53,7 @@ module.exports = function(grunt) {
                 expand: true,
                 cwd: '<%= srcDir %>/',
                 ext: '.html',
-            },
+            },            
         },
 
         sass: {
